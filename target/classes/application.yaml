@@ -1,0 +1,18 @@
+spring:
+  ui:
+    title: "WSR App"
+  main:
+    web-application-type: none
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/wsr
+    password: root
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        validator:
+          apply_auto_ddl: false
+    show-sql: true
